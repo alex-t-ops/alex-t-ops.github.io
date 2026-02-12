@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index.html</title>
+</head>
+<body>
+    <p style="font-family: Arial, sans-serif; font-size: 14px;">
+      <strong>English</strong>
+    </p>
+    
+    <p style="font-family: Arial, sans-serif; font-size: 14px;">
+      <a href="{{ notice_url }}" style="color: #0066cc;">{{ notice_title }}</a> has been published.
+    </p>
+    
+    <p style="font-family: Arial, sans-serif; font-size: 14px;">
+      – The Environmental Registry of Ontario team
+    </p>
+    
+    <hr style="border: 0; border-top: 1px solid #cccccc; margin: 24px 0;" />
+    
+    <p style="font-family: Arial, sans-serif; font-size: 14px;">
+      <strong>Français</strong>
+    </p>
+    
+    <p style="font-family: Arial, sans-serif; font-size: 14px;">
+      <a href="{{ notice_url }}" style="color: #0066cc;">{{ notice_title }}</a> a été publié.
+    </p>
+    
+    <p style="font-family: Arial, sans-serif; font-size: 14px;">
+      – L’équipe du Registre environnemental de l’Ontario
+    </p>
+</body>
+</html>
